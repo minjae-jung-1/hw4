@@ -1,24 +1,62 @@
-.sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
+
+textarea{
+    background: transparent;
+    border: none;
+    color: black;
+    border: solid black;
+    margin-bottom: 210px;
+}
+
+
+#todo text{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.wrap{
+    white-space: pre-wrap;
+}
+.row{
+    white-space: pre-wrap;
+    height: 100px;
+    margin-bottom: 5%;
+    
+}
+.idPortion{
+    margin-top:2%;
+    margin-bottom: 10px;
+}
+.top{
+    margin-top:100px;
+}
+.center {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    padding: 10px;
   }
-  
-  .sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
-  
+
+.date{
+      background-color: blue;
+    }
+
+.past {
+    background-color: #d3d3d3;
+    color: white;
+}
+
+.present {
+    background-color: #ff6961;
+    color: white;
+}
+
+.future {
+    background-color: #77dd77;
+    color: white;
+}
+
+.btn{
+    height: fit-content;
+
+}
